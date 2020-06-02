@@ -2,16 +2,16 @@
 
 ## Strapi Credentials
 
-Username: root
-Password: password
+- Username: root
+- Password: password
 
 ## Database Access
 
-Database Name: Strapimariadb
-Username: root
-Password: password
-Host: 127.0.0.1
-Port: 3306
+- Database Name: Strapimariadb
+- Username: root
+- Password: password
+- Host: 127.0.0.1
+- Port: 3306
 
 ## Task Details
 
