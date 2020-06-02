@@ -76,11 +76,14 @@ Note: Authenticated users if the update price can only be accessed by authentica
 2. Add this code to routes.json:
 
 ```
-{
-  "method": "PUT",
-  "path": "/activities/activities_price/:id",
-  "handler": "activities_price.index"
-}
+  {
+    "method": "PUT",
+    "path": "/activities_price/:id",
+    "handler": "activities_price.update",
+    "config": {
+      "policies": []
+    }
+  }
 ```
 
 3. Go to api/activities/controllers and create activities_price.js
