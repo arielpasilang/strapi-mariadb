@@ -159,6 +159,8 @@ module.exports = {
 
 https://github.com/strapi/strapi/discussions/6509
 
+Screenshot: https://gyazo.com/8e89e0d38a31aa5284004e89d9043f0d
+
 ### 6. Commit the complete Strapi application with database dump, Strapi and DB credentials in Readme file to GIT (e.g. GitHub, Gitlab, Bitbucket).
 
 - Database Dump = strapimariadb.sql
