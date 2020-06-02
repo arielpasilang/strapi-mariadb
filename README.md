@@ -15,7 +15,7 @@ Port: 3306
 
 ## Task Details
 
-1. Install a local instance of the latest stable Strapi CMS with MariaDB as a database.
+### 1. Install a local instance of the latest stable Strapi CMS with MariaDB as a database.
 
 Strapi and MariaDB
 
@@ -37,11 +37,11 @@ For windows users:
   It will be hosted locally at http://localhost:1337/admin/
 - Enter your desired Username, and password.
 
-2. Create one content type (collection type) in Strapi named Activities.
+### 2. Create one content type (collection type) in Strapi named Activities.
 
 Go to Plugins -> Content-Type-Builder and Create Activities.
 
-3. Activities content type should have the below fields Title, Sub-Title, Description, Pictures, Price.
+### 3. Activities content type should have the below fields Title, Sub-Title, Description, Pictures, Price.
 
 Now Create these fields. Make sure it is on a small letter example (title, subtitle, etc)
 Title = text as short description
@@ -53,7 +53,7 @@ Price = Number. You can choose between decimal or float for this. I choose 2 dec
 This is how it looks.
 https://gyazo.com/2abce952547a74adb53f4e43908c4f47
 
-4. Each field in the Activities content type should be multilingual (EN, DE, ES). Hint: This can be achieved using components in Strapi or you can use any other solution as well.
+### 4. Each field in the Activities content type should be multilingual (EN, DE, ES). Hint: This can be achieved using components in Strapi or you can use any other solution as well.
 
 By default, the content types that we created in step 3 are for english language.
 
@@ -150,6 +150,12 @@ module.exports = {
 
 ```
 
-5. Configure a plugin to send automatic email to info@mallorcard.es whenever a new Activity is created in activities. Using Strapi plugin system is Mandatory. Hint: Can be achieved by using Nodemailer provider. For this step you can create a sample Gmail or any other email provider account for testing.
+### 5. Configure a plugin to send automatic email to info@mallorcard.es whenever a new Activity is created in activities. Using Strapi plugin system is Mandatory. Hint: Can be achieved by using Nodemailer provider. For this step you can create a sample Gmail or any other email provider account for testing.
 
-6. Commit the complete Strapi application with database dump, Strapi and DB credentials in Readme file to GIT (e.g. GitHub, Gitlab, Bitbucket).
+- It seems I encountered an issue while doing this. I can't seem to see the mail cog button. Following my issue here:
+
+https://github.com/strapi/strapi/discussions/6509
+
+### 6. Commit the complete Strapi application with database dump, Strapi and DB credentials in Readme file to GIT (e.g. GitHub, Gitlab, Bitbucket).
+
+- Database Dump = strapimariadb.sql
