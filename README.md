@@ -7,7 +7,7 @@
 
 ## Database Access
 
-- Database Name: Strapimariadb
+- Database Name: strapimariadb
 - Username: root
 - Password: pass
 - Host: 127.0.0.1
